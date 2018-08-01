@@ -16,7 +16,7 @@ jQuery(document).ready(function($){
         	.auth()
            .signInWithEmailAndPassword(email, password)
 			.then(function() {
-				location.href="file:///C:/Users/Administrador/Desktop/reporting/mientras.html";
+				location.href="file:///C:/Users/Administrador/Desktop/reporting/reporting.html";
 			})
 			.catch(function(error) {
             alert('No Eres Bienvenido');
@@ -44,7 +44,7 @@ jQuery(document).ready(function($){
         	.auth()
            .createUserWithEmailAndPassword(email, password)
 			.then(function() {
-				location.href="file:///C:/Users/Administrador/Desktop/reporting/mientras.html";
+				location.href="file:///C:/Users/Administrador/Desktop/reporting/reporting.html";
 			})
 			.catch(function(error) {
             alert('No Eres Bienvenido');
